@@ -6,7 +6,7 @@ Estructura del proyecto:
 .
 ├── config
 │   └── php.ini
-├── .env.yml
+├── .env
 ├── README.md
 ├── docker-compose.yml
 └── wipe-all.ps1
