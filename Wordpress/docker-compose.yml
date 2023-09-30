@@ -22,6 +22,8 @@ services:
 
   # Wordpress service (Wordpress)
   wp:
+    depends_on:
+      - db
     container_name: wp
     image: wordpress:latest
     restart: always
